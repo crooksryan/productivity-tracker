@@ -1,5 +1,6 @@
 export default defineEventHandler((event)=>{
     return {
-        authorized : true
+        authorized : true,
+        user : 'Test User'
     }
 })

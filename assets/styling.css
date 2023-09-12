@@ -4,11 +4,14 @@
     font-weight: 400;
     
     font-size: max(1.1vmax, 16px);
-    --text: #F6E2D5;
-    --background: #0e1c25;
-    --primary: #194c6c;
-    --secondary: #c65e38;
-    --accent: #a2ceea;
+    --text: #f7f3f5;
+    /* --background: #160e11; */
+    --backgroun: #1f1f29;
+    --primary: #4776de;
+    --secondary: #420b23;
+    /* --accent: #f199bf; */
+    --accent: #c80f5c;
+
   
     color-scheme: light dark;
   
@@ -42,11 +45,11 @@
   
   @media (prefers-color-scheme: light) {
     :root {
-      --text: #0e1c25;
-      --background: #f6e2d5;
-      --primary: #194c6c;
-      --secondary: #f1916d;
-      --accent: #2d8bc6;
+      --text: #160e11;
+      --background: #f7f3f5;
+      --primary: #8fb3ff;
+      --secondary: #9cacc1;
+      --accent: #d41d6c;
     }
     a:hover {
       color: #747bff;
