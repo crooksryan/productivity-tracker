@@ -2,6 +2,13 @@
     definePageMeta({
         layout: 'dash'
     });
+
+    const createMenu = ref(false);
+
+    function menu(){
+        createMenu.value = !createMenu.value;
+        console.log(createMenu.value);
+    }
 </script>
 
 <template>
@@ -11,7 +18,9 @@
 
     <p>None</p>
 
-    <button>Create Task</button>
+
+
+    <button @click="menu" :class="{ red: createMenu}">Create Task</button>
 </template>
 
 <style scoped>
@@ -21,5 +30,9 @@ button{
     padding: 1.0rem .75rem;
     border: none;
     border-radius: 12px;
+}
+
+.red{
+    background-color: red;
 }
 </style>

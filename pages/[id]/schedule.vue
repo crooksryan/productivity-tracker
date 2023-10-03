@@ -6,4 +6,6 @@
 
 <template>
     <h1>Schedule Page</h1>
+
+    <h3>Calendar</h3>
 </template>
